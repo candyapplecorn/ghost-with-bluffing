@@ -8,16 +8,14 @@ end
 
 class Game
 	def initialize
+		puts "Welcome to the word game Ghost!"
+
 		# 1. Get the dictionary path. Default is set, just hit enter to accept
 		@DICTIONARY_PATH = "dictionary.txt"
-		#puts "Dictionary path is #{@DICTIONARY_PATH}. Press enter to accept, or enter a dictionary filename."
-		#@DICTIONARY_PATH = (lambda {|response| @DICTIONARY_PATH = response if (not (response =~ //))}).call(gets.chomp)
-		
 
 		# 2. Bluffing
-		#puts "Bluffing is OFF. Press enter to accept, or enter 'ON' to enable bluffing."
-		#@bluffing = !!(gets.chomp =~ /on/i)
 		@bluffing = !!((prompt "Bluffing is OFF. Press enter to accept, or enter 'ON' to enable bluffing.") =~ /on/i)
+
 		# 3. Get the players. This will execute code in Player_group's constructor
 		@player_group = Player_Group.new
 	end
