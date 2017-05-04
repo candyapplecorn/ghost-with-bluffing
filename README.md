@@ -1,7 +1,15 @@
 # ghost-with-bluffing
 the word game ghost, with optional bluffing
 
-### Directions
+### Usage
+It's just a ruby program:
+```bash
+$ ruby ghost.rb
+Welcome to Ghost!
+...
+```
+
+### Gameplay Directions
 
 [https://en.wikipedia.org/wiki/Ghost_(game)](https://en.wikipedia.org/wiki/Ghost_(game))
 
