@@ -9,7 +9,7 @@ end
 class Game
 	def initialize
 		# 1. Get the dictionary path. Default is set, just hit enter to accept
-		@DICTIONARY_PATH = "/home/chrx/bin/ruby/ghost/dictionary.txt"
+		@DICTIONARY_PATH = "dictionary.txt"
 		#puts "Dictionary path is #{@DICTIONARY_PATH}. Press enter to accept, or enter a dictionary filename."
 		#@DICTIONARY_PATH = (lambda {|response| @DICTIONARY_PATH = response if (not (response =~ //))}).call(gets.chomp)
 		
