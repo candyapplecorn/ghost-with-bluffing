@@ -1,10 +1,16 @@
 # ghost-with-bluffing
 the word game ghost, with optional bluffing
 
-### Usage
-It's just a ruby program:
+### Install
+Copy and paste this into your terminal to clone the repository
 ```bash
-$ ruby ghost.rb
+git clone https://github.com/candyapplecorn/ghost-with-bluffing
+```
+
+### Usage
+It's just a ruby program. Type "ruby ghost.rb" into your terminal to run it:
+```bash
+ruby ghost.rb
 Welcome to Ghost!
 ...
 ```
